@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+      <pattern>ciao</pattern>
+     <template>Ciao! Come ti chiami?</template>
+  </category>
+  
+  <category>
+     <pattern>Mi chiamo *</pattern>
+     <template>Ciao <star/> puoi chiedermi
+     <ul>
+         <li>home</li>
+         <li>impianti</li>
+         <li>descrizione</li>
+         <li>login and register</li>
+     </ul>
+     </template>
+  </category>
+  
+  <category>
+      <pattern>home</pattern>
+     <template>Il pulsante home serve per tornare alla pagina iniziale del sito. Ecco che pagine mi puoi chiedere:
+    <ul>
+        <li>impianti</li>
+        <li>descrizione</li>
+        <li>login and legister</li>
+    </ul>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>impianti</pattern>
+     <template>Il pulsante impianti serve per vedere la lista di tutti gli impianti. Ecco che pagine mi puoi chiedere:
+    <ul>
+        <li>home</li>
+        <li>descrizione</li>
+        <li>login and register</li>
+    </ul>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>descrizione</pattern>
+     <template>Il pulsante descrizione serve per vedere la pagina con i dettagli di un impianto. Ecco che pagine mi puoi chiedere:
+    <ul>
+        <li>home</li>
+        <li>impianti</li>
+        <li>login and register</li>
+    </ul>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>login and register</pattern>
+     <template>Il pulsante login o register ti portano ad una schermata per effettuare l'accesso. Ecco che pagine mi puoi chiedere:
+    <ul>
+        <li>home</li>
+        <li>impianti</li>
+        <li>descrizione</li>
+    </ul>
+    </template>
+  </category>
+</aiml>
